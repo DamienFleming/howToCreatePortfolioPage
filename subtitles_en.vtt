@@ -1,9 +1,45 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:10.606
-This is the first subtitle.
+00:00:00.000 --> 00:00:04.000
+Today I'm going to show you how to create your own portfolio page...
 
 2
-00:00:11.739 --> 00:00:23.074
-This is the second.
+00:00:04.000 --> 00:00:11.000
+... One that looks professional and works very fluidly.
+
+3
+00:00:11.000 --> 00:00:20.000
+Bootstrap themes are very helpful for this and do a lot of the work for you.
+
+4
+00:00:20.000 --> 00:00:28.000
+You can find and download a theme at startbootstrap.com.
+
+5
+00:00:30.000 --> 00:00:40.000
+You'll want to add the files you downloaded to a new, empty git repository so that it looks like this.
+
+6
+00:00:40.000 --> 00:00:57.000
+Go to your settings and make sure your repository name is [your username].github.io
+
+7
+00:00:58.000 --> 00:01:06.000
+This will make sure your page goes live at your main github page.
+
+8
+00:01:06.000 --> 00:01:14.000
+Now you can begin to make the website your very own personalized profile.
+
+9
+00:01:14.000 --> 00:01:27.000
+You can edit the index page to replace content with your own
+
+10
+00:01:27.000 --> 00:01:37.000
+You can even start changing style sheets to further customize your theme.
+
+11
+00:01:37.000 --> 00:01:45.000
+Thanks for watching, and goodluck!

@@ -1,26 +1,154 @@
-<!Doctype html>
-<head>
-    <style>
-        video{
-            width: 100%;
-        }
-        #pageBody {
-            width:960px;
-            margin: auto;
-            background-color: #cceeff;
-            padding: 20px;
-        }
-        h1{
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <div id="pageBody">
-        <h1> How to create a portfolio page on github</h1>
-        <video controls="controls">
-           <source src="test2.mp4"  type="video/mp4" />
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>How to create a portfolio page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">How to create a portfolio page</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Find a Theme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">How-To</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Video Tutorial</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">Learn step-by-step how to create your own portfolio page.</h1>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Visit Start Bootstrap to find a theme that suits you!</a>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            
+            <img src="img/portfolio-screenshot.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Find your theme today!</h2>
+            <h3><a style="color:inherit; text-decoration: underline;" href="https://startbootstrap.com/">CLICK HERE</a> to visit Start Bootstrap and find your FREE theme.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>How to start your portfolio page</h2>
+          <p class="text-muted">Follow the steps below and you'll be well on your way!</p>
+          <hr>
+        </div>     
+            <div style="background-color:#eeeeee; padding: 20px;">
+                <div style="width:40%; display: inline-block; padding-right: 20px; vertical-align: middle;">
+                <h2>STEP 1</h2>
+                <p>If you haven't already, <a style="color:inherit; text-decoration: underline;" href="https://startbootstrap.com/">Visit Start Bootstrap</a> to find a free theme and download it. </p>
+                </div>
+                <img style="width:59%; display: inline-block;" class="img-fluid" src="img/downloading-theme.png"/>
+            </div>  
+            <div style="background-color:#f9f9f9; padding: 20px;">
+                <div style="width:40%; display: inline-block; padding-right: 20px; vertical-align: middle;">
+                <h2>STEP 2</h2>
+                <p>Create a new repository on github and add all of the files from the download. </p>
+                </div>
+                <img style="width:59%; display: inline-block;" class="img-fluid" src="img/git-hub-starting-point.png"/>
+            </div> 
+            <div style="background-color:#eeeeee; padding: 20px;">
+                <div style="width:40%; display: inline-block; padding-right: 20px; vertical-align: middle;">
+                <h2>STEP 3</h2>
+                <p>If you'd like the page to be live on your main github page, make sure your repository name is [your-github-username].github.io</p>
+                </div>
+                <img style="width:59%; display: inline-block;" class="img-fluid" src="img/repository-name-matches.png"/>
+            </div> 
+              <div style="background-color:#f9f9f9; padding: 20px;">
+                <div style="width:40%; display: inline-block; padding-right: 20px; vertical-align: middle;">
+                <h2>STEP 4</h2>
+                <p>Modify your code: replace template information with your own, customize layouts and styles further to your liking, and develop your page as you see fit.</p>
+                </div>
+                <img style="width:59%; display: inline-block;" class="img-fluid" src="img/modify-your-code.png"/>
+            </div> 
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+         <h1>Watch this tutorial to get started on your portfolio</h1>
+         <hr>
+         <video style="width:100%;" controls="controls">
+           <source src="tutorial.mp4"  type="video/mp4" />
            <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
         </video>
-    </div>
-</body>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>How to create a portfolio page - By Damien Fleming</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
+  </body>
+
+</html>
